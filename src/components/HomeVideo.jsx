@@ -1,15 +1,17 @@
 import React from 'react'
+import ScrollDown from './ScrollDown'
 
 function HomeVideo () {
     
   return (
 <>
     
-    <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+    <header className="relative flex items-center justify-center h-screen overflow-hidden">
     <div
-      className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
+      className="z-30 p-5 text-2xl text-white bg-white bg-opacity-50 rounded-xl"
     >
-      X
+      <div>
+      </div>
     </div>
     <video
       autoPlay
@@ -17,13 +19,14 @@ function HomeVideo () {
       muted
       className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
     >
-      <source
+      <source className=""
         src="blackout.mp4"
         type="video/mp4"
       />
     </video>
   </header>
  
+  <ScrollDown />
 
   </>
     
