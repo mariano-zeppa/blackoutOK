@@ -4,7 +4,7 @@ function HomeVideo () {
     
   return (
 <>
-    <div>Test</div>
+    
     <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
     <div
       className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
