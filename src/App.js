@@ -9,7 +9,7 @@ import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 import InstaFeed from './components/InstaFeed'
 import Header from './components/Header'
-
+import ScrollDown from './components/ScrollDown'
 import Cube from './components/Cube'
 
 export default class App extends Component {
@@ -19,7 +19,7 @@ export default class App extends Component {
 
 
   return (<>
-  <div className="relative">
+  
   <ProgressBar color="#fff"
     height={5}
     direction="right"
@@ -28,8 +28,9 @@ export default class App extends Component {
     gradientColor="#eee"/>
     
      {/* <Cube className="absolute top-0 left-0"/> */}
-    
+     <div className="relative">
      <Header  />
+     <div/>
     <div className='bg-black'>  <HomeVideo /> </div>
     <div className='bg-black'>  <ActualEvents /> </div>
     <div className='bg-black'>  <PastEvents /> </div>

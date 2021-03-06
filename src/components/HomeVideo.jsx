@@ -20,9 +20,11 @@ function HomeVideo () {
         type="video/mp4"
       />
     </video>
+      <ScrollDown className="bg-transparent" />
   </header>
  
-  <ScrollDown />
+ 
+   
 
   </>
     

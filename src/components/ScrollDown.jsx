@@ -1,28 +1,23 @@
 import React from 'react'
 import './ScrollDown.css'
-import Jump from 'react-reveal/Jump'
+// import Jump from 'react-reveal/Jump'
 
 function ScrollDown () {
     // Get all the elements you want to show on scroll
 
     
   return (
+    <div className='relative items-center z-30 w-full p-5 text-sm bg-opacity-50 rounded-xl '>
+    <span class="scroll-btn absolute inset-x-0 bottom-0">
+    <span class="mouse">
+      <span>
+      </span>
+    </span>
 
-   <Jump>
-    <div class="bg-black">
-    <div class="mouse_scroll bg">
 
-<div class="mouse">
-  <div class="wheel"></div>
+
+</span>
 </div>
-<div>
-  <span class="m_scroll_arrows unu"></span>
-  <span class="m_scroll_arrows doi"></span>
-  <span class="m_scroll_arrows trei"></span>
-</div>
-</div>
-</div>
-</Jump>
   )
 }
 
