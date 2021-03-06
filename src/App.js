@@ -1,24 +1,45 @@
+import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 import './App.css';
+import ProgressBar from "react-progressbar-on-scroll";
 import HomeVideo from './components/HomeVideo'
 import ActualEvents from './components/ActualEvents'
 import PastEvents from './components/PastEvents'
 import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 import InstaFeed from './components/InstaFeed'
-function App() {
+import Header from './components/Header'
+
+import Cube from './components/Cube'
+
+export default class App extends Component {
+
   
+  render () {
+
+
   return (<>
-   {/* <Cube className="absolute top-0 left-0"/> */}
-  <div class="progress position-static"></div>
-    <div>  <HomeVideo /> </div>
-    {/* <div className='w-20 h-20'><ScrollDown /></div> */}
-    <div>  <ActualEvents /> </div>
-    <div>  <PastEvents /> </div>
-    <div>  <Gallery /> </div>
-    <div>  <Footer /> </div>
-    <div>  <InstaFeed /> </div>
+  <div className="relative">
+  <ProgressBar color="#fff"
+    height={5}
+    direction="right"
+    position="top"
+    gradient={true}
+    gradientColor="#eee"/>
+    
+     {/* <Cube className="absolute top-0 left-0"/> */}
+    
+     <Header  />
+    <div className='bg-black'>  <HomeVideo /> </div>
+    <div className='bg-black'>  <ActualEvents /> </div>
+    <div className='bg-black'>  <PastEvents /> </div>
+    <div className='bg-black'>  <Gallery /> </div>
+    <div className='bg-black'>  <Footer /> </div>
+    <div className='bg-black'>  <InstaFeed /> </div>
+    </div>
     </>
   )
-};
+}
+}
 
-export default App;
+

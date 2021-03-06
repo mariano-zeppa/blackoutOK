@@ -5,7 +5,7 @@ function Gallery () {
   return (
 <>
 
-<div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white">Gallery</div>
+<div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white" id="gallery">Gallery</div>
 <ScrollDown/>
 
         

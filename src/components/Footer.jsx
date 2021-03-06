@@ -5,7 +5,7 @@ function Footer () {
   return (
 <>
     
-    <div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white">Footer</div>
+    <div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white" id="us">Footer</div>
 
   </>
     

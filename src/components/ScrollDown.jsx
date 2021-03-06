@@ -1,13 +1,14 @@
 import React from 'react'
 import './ScrollDown.css'
+import Jump from 'react-reveal/Jump'
+
 function ScrollDown () {
-    window.addEventListener('scroll', () => {
-        document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-      }, false)
+    // Get all the elements you want to show on scroll
+
     
   return (
 
-    
+   <Jump>
     <div class="bg-black">
     <div class="mouse_scroll bg">
 
@@ -21,7 +22,7 @@ function ScrollDown () {
 </div>
 </div>
 </div>
-
+</Jump>
   )
 }
 
