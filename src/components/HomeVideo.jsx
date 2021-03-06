@@ -1,14 +1,18 @@
 import React from 'react'
 import ScrollDown from './ScrollDown'
 import Header from './Header'
+
 function HomeVideo () {
     
   return (
 <>
-    
-    <header className="relative flex items-top justify-end h-screen overflow-hidden">
-     
-    
+
+    <div className="relative flex flex-wrap justify-center h-screen overflow-hidden">
+      <div className="relative h-2/5 w-2/5 flex flex-wrap items-center h-screen overflow-hidden">
+        <div className='absolute z-30  flex flex-wrap p-5 bottom-0 text-sm rounded-xl'>
+      </div>
+       <img  className="relative z-30 p-5 text-2xl bg-indigo-100 bg-opacity-10 " src="blackoutlogo.png" alt=""/>
+    </div>
     <video
       autoPlay
       loop
@@ -20,8 +24,8 @@ function HomeVideo () {
         type="video/mp4"
       />
     </video>
-      <ScrollDown className="bg-transparent" />
-  </header>
+      {/* s<ScrollDown className="" /> */}
+  </div>
  
  
    

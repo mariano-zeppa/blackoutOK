@@ -8,7 +8,7 @@ function ScrollDown () {
     
   return (
     <div className='relative items-center z-30 w-full p-5 text-sm bg-opacity-50 rounded-xl '>
-    <span class="scroll-btn absolute inset-x-0 bottom-0">
+    <span class="scroll-btn absolute bottom-0">
     <span class="mouse">
       <span>
       </span>

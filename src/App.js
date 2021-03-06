@@ -19,7 +19,7 @@ export default class App extends Component {
 
 
   return (<>
-  
+
   <ProgressBar color="#fff"
     height={5}
     direction="right"
