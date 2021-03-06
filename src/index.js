@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Feed from "react-instagram-authless-feed"
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Feed userName="jamespaulmoriarty" className="Feed" classNameLoading="Loading" limit="3"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -11,6 +11,7 @@ import InstaFeed from './components/InstaFeed'
 import Header from './components/Header'
 import ScrollDown from './components/ScrollDown'
 import Cube from './components/Cube'
+import Feed from "react-instagram-authless-feed"
 
 export default class App extends Component {
 
@@ -37,6 +38,7 @@ export default class App extends Component {
     <div className='bg-black'>  <Gallery /> </div>
     <div className='bg-black'>  <Footer /> </div>
     <div className='bg-black'>  <InstaFeed /> </div>
+    <Feed userName="blackout__nz" className="Feed" classNameLoading="Loading" limit="9"/>
     </div>
     </>
   )
