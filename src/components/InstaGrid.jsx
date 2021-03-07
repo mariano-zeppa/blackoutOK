@@ -12,7 +12,7 @@ const styles = () => ({
   wrapper: {},
   image: {
     width: '100%',
-    height: '100%',
+    height: '100%'
   },
 });
 
@@ -42,6 +42,7 @@ const InstaGrid = ({ classes, media, account, status}: Props) => {
                 src={displayImage}
                 alt={accessibilityCaption || 'Instagram picture'}
                 className={classes.image}
+               
               />
             </ButtonBase>
           </Grid>

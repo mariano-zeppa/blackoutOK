@@ -38,7 +38,7 @@ export default class App extends Component {
     <div className='bg-black'>  <Gallery /> </div>
     <div className='bg-black'>  <Footer /> </div>
     <div className='bg-black'>  <InstaFeed /> </div>
-    <Feed userName="blackout__nz" className="Feed" classNameLoading="Loading" limit="9"/>
+    <Feed userName="blackout__nz" className="Feed bg-red-200 flex flex-row" classNameLoading="Loading" limit="9"/>
     </div>
     </>
   )
