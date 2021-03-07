@@ -12,7 +12,7 @@ const styles = () => ({
   wrapper: {},
   image: {
     width: '100%',
-    height: '100%'
+    height: '100%',
   },
 });
 
@@ -29,12 +29,15 @@ export type Props = {
 };
 
 const InstaGrid = ({ classes, media, account, status}: Props) => {
+  
   return (
-    <Grid container spacing={32} className={classes.wrapper}>
+
+    
+    <Grid  container spacing={32} className={classes.wrapper}>
       {media &&
         status === 'completed' &&
         media.map(({ displayImage, id, postLink, accessibilityCaption }) => (
-          <Grid item xs={12} sm={6} md={4} key={id || displayImage}>
+          <Grid  item xs={12} sm={6} md={4} key={id || displayImage}>
             <ButtonBase
               href={postLink || `https://www.instagram.com/${account}/`}
             >

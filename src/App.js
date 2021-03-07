@@ -35,10 +35,9 @@ export default class App extends Component {
     <div className='bg-black'>  <HomeVideo /> </div>
     <div className='bg-black'>  <ActualEvents /> </div>
     <div className='bg-black'>  <PastEvents /> </div>
-    <div className='bg-black'>  <Gallery /> </div>
+    <div className='bg-black'>  <Gallery/> </div>
     <div className='bg-black'>  <Footer /> </div>
     <div className='bg-black'>  <InstaFeed /> </div>
-    <Feed userName="blackout__nz" className="Feed bg-red-200 flex flex-row" classNameLoading="Loading" limit="9"/>
     </div>
     </>
   )
