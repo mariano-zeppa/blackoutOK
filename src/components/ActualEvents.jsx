@@ -5,7 +5,7 @@ function ActualEvents () {
   return (
 <>
     
-    <div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white" id="nextevents">
+    <div className="bg-white  flex items-center justify-center h-screen overflow-hidden text-white" id="nextevents">
       
     <div class="card">
   <img src="blackoutevent.jpg" alt="" class="card__img"/>
