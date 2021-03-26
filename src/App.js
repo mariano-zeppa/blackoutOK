@@ -37,7 +37,6 @@ export default class App extends Component {
     <div className='bg-black'>  <PastEvents /> </div>
     <div className='bg-black'>  <Gallery/> </div>
     <div className='bg-black'>  <Footer /> </div>
-    <div className='bg-black'>  <InstaFeed /> </div>
     </div>
     </>
   )
