@@ -7,11 +7,18 @@ function PastEvents () {
     <>
 <div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white" id="pastevents">
   
-<div class="card">
-  <img src="blackoutevent.jpg" alt="" class="card__img"/>
-  <div class="card__body">
-    <h3 class="card__title">Sunset Edition</h3>
-    <p class="card__text">HELLO SUNSHINE ROOFTOP</p>
+<div class="table w-11/12">
+  <div class="table-row-group">
+    <div class="table-row">
+      <div class="table-cell border"><p className="">RAGNAROK</p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+      <div class="table-cell border"><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+      <div class="table-cell border"><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell border">Cell 4</div>
+      <div class="table-cell border">Cell 5</div>
+      <div class="table-cell border">Cell 6</div>
+    </div>
   </div>
 </div>
 

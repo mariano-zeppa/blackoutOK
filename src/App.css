@@ -65,6 +65,8 @@ body {
 }
 
 .Feed a img {
+  border-color: black;
+  border-width: 2px;
   animation: fadein 3s;
   width: 100%;
 }

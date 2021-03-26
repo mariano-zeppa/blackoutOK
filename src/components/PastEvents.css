@@ -83,10 +83,10 @@ box-sizing: border-box;
   bottom: -.15em;
   left: -5rem;
   z-index: -1;
-  box-shadow: inset 0px 0px 7px 1px rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 9px 1px rgb(0, 0, 0);
 }
 
-.card__title::after {
+/* .card__title::after {
   content: '';
   position: absolute;
   top: -.1em;
@@ -96,7 +96,7 @@ box-sizing: border-box;
   z-index: -1;
   background-color: black;
   box-shadow: inset -7px 0px 7px 1px rgb(255, 255, 255);
-}
+} */
 
 .card__text {
     
