@@ -7,6 +7,8 @@ function HomeVideo () {
   return (
 <>
 
+
+
     <div className="relative flex flex-wrap justify-center h-screen overflow-hidden">
       <div className="relative h-2/6 w-2/6 flex flex-wrap items-center h-screen overflow-hidden">
         <div className='absolute z-30  flex flex-wrap p-5 bottom-0 text-sm rounded-xl'>

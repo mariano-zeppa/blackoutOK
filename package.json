@@ -54,12 +54,12 @@
   "main": "craco.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariano-zeppa/blackoutOK/tree/master.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mariano-zeppa/blackoutOK/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/mariano-zeppa/blackoutOK/tree/master.git"
+  "homepage": ""
 }
