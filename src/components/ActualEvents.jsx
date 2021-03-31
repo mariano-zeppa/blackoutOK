@@ -7,11 +7,11 @@ function ActualEvents () {
     
     <div className="bg-white  flex items-center justify-center h-screen overflow-hidden text-white" id="nextevents">
       
-    <div class="card">
-  <img src="blackoutevent.jpg" alt="" class="card__img"/>
-  <div class="card__body">
-    <h3 class="card__title">Sunset Edition</h3>
-    <p class="card__text">HELLO SUNSHINE ROOFTOP</p>
+    <div className="card">
+  <img src="blackoutevent.jpg" alt="" className="card__img"/>
+  <div className="card__body">
+    <h3 className="card__title">Sunset Edition</h3>
+    <p className="card__text">HELLO SUNSHINE ROOFTOP</p>
   </div>
 </div>
 

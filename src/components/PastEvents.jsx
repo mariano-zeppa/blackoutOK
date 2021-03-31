@@ -7,17 +7,17 @@ function PastEvents () {
     <>
 <div className="bg-black flex items-center justify-center h-screen overflow-hidden text-white" id="pastevents">
   
-<div class="table w-11/12">
-  <div class="table-row-group">
-    <div class="table-row">
-      <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
-      <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
-      <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+<div className="table w-11/12">
+  <div className="table-row-group">
+    <div className="table-row">
+      <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+      <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+      <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
     </div>
-    <div class="table-row">
-    <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
-    <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
-    <div class="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+    <div className="table-row">
+    <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+    <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
+    <div className="table-cell border"><p className=""></p><img src="blackoutnz2.jpg" alt="" className="w-1/2 h-1/12"/></div>
     </div>
   </div>
 </div>
