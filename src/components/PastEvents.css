@@ -2,7 +2,7 @@
 
 body {
   
-  display: grid;
+  
   place-items: center;
   height: 100vh;
   font-family: 'Oswald', sans-serif;
@@ -127,7 +127,7 @@ body {
 
 
 body {
-  display: grid;
+ 
   place-items: center;
   height: 100vh;
   font-family: 'Oswald', sans-serif;
