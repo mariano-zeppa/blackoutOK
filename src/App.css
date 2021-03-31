@@ -53,6 +53,7 @@ body {
 }
 
 .Feed {
+
   margin: auto;
   padding: 1% 1%;
 }
@@ -87,4 +88,39 @@ body {
   to {
     opacity: 1;
   }
+}
+
+@media (max-width: 640px) {
+
+  .Feed {
+    border: none;
+    box-shadow: none;
+    --tw-bg-opacity: 1;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 1% 1%;
+    width: fit-content;
+  }
+
+
+  .Feed a {
+    background-color: white;
+    display: inline-block;
+    margin: 1% 1%;
+    width: 23%;
+    line-height: 0;
+  }
+
+  .Feed a img {
+    background-color: white;
+    width: min-content;
+    border-color: black;
+    border-width: 2px;
+    animation: fadein 3s;
+    width: 100%;
+  }
+
+
 }
