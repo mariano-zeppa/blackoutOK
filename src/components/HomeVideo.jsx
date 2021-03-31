@@ -14,7 +14,7 @@ function HomeVideo () {
        <img  className="relative z-30 text-2xl border-4 rounded-full" src="blackoutlogo32.png" alt=""/>
     </div>
     <video
-      autoPlay
+      autoplay
       loop
       muted
       className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
