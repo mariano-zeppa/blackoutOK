@@ -15,6 +15,7 @@
     "react-dom": "^17.0.1",
     "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed#v2.0.0",
     "react-progressbar-on-scroll": "^1.1.0",
+    "react-responsive-carousel": "^3.2.16",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.1",
@@ -58,8 +59,5 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
   "homepage": ""
 }
