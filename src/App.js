@@ -36,7 +36,7 @@ export default class App extends Component {
      <div/>
     <div className='bg-black'>  <HomeVideo /> </div>
     <div className='bg-black'>  <ActualEvents /> </div>
-    <div className='bg-black'>  <Carousel /> </div>
+    <div className='bg-white'>  <Carousel /> </div>
     {/* <div className='bg-black'>  <Gallery/> </div> */}
     <div className='bg-black'>  <Footer/> </div>
     <div className='bg-black'>  <InstaFeed /> </div>

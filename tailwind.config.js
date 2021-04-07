@@ -25,6 +25,10 @@ module.exports = {
         }
       }
     },
+    screens: {
+      'extraSmall': '0px',
+
+    }
   },
   variants: {
     animation: ["motion-safe"],
