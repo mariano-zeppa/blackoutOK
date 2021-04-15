@@ -15,6 +15,7 @@ import Feed from "react-instagram-authless-feed"
 import Carousel from "./components/Carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import '@fortawesome/fontawesome-free/css/all.css'
 export default class App extends Component {
 
   
