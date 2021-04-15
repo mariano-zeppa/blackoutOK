@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
     "autoprefixer": "^9.8.6",
+    "font-awesome": "^4.7.0",
     "knex": "^0.95.4",
     "polyfill-library": "^3.103.0",
     "postcss": "^7.0.35",
